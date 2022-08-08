@@ -1,0 +1,56 @@
+
+*{
+    overflow-x: hidden;
+}
+body{
+ background-color: #fda835;
+ font-family: 'Mogena', sans-serif;   
+}
+
+.soon{
+    margin-top: -90px;
+}
+.teks{
+    font-size: 80px;
+}
+.teks2{
+    font-size: 50px;
+}
+.rumah{
+
+}
+
+.gadang{
+    bottom: -380px;
+    z-index: 1;
+}
+.orang{
+    bottom: -380px;
+    width: 400px;
+}
+@media screen and (max-width: 600px){
+    .teks{
+        font-size: 60px;
+    }
+    .teks2{
+        font-size: 30px;
+    }
+    .orang{
+        width: 25%;
+    }
+    .orang1{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 1000px){
+    .orang{
+        width: 30%;
+    }
+    .orang1{
+        display: none;
+    }
+    
+}
+
+
